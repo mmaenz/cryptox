@@ -1,17 +1,24 @@
+# sensitive config
+application-kraken.properties
+
 # Compiled class file
 *.class
-
+/bin
+/target
 dev-env.json
 
 # Log file
 *.log
-logs/**
+/logs
 
 # application
 dev-env.json
 
 # BlueJ files
 *.ctxt
+
+# Eclipse stuff
+/.settings
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -24,8 +31,6 @@ dev-env.json
 *.zip
 *.tar.gz
 *.rar
-
-target
 
 # IntelliJ
 .idea
